@@ -1,3 +1,3 @@
 # OANDA_V20_Client
 
-Some extra info
+For information about the python client open the python folder.
