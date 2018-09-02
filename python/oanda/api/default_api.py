@@ -126,7 +126,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders/{orderSpecifier}/cancel', 'PUT',
@@ -245,7 +245,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/positions/{instrument}/close', 'PUT',
@@ -364,7 +364,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/trades/{tradeSpecifier}/close', 'PUT',
@@ -471,7 +471,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/configuration', 'PATCH',
@@ -582,7 +582,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders', 'POST',
@@ -685,7 +685,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}', 'GET',
@@ -792,7 +792,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/changes', 'GET',
@@ -896,7 +896,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/instruments', 'GET',
@@ -999,7 +999,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/summary', 'GET',
@@ -1098,7 +1098,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/users/{userSpecifier}/externalInfo', 'GET',
@@ -1241,7 +1241,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/instruments/{instrument}/candles', 'GET',
@@ -1352,7 +1352,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders/{orderSpecifier}', 'GET',
@@ -1459,7 +1459,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/positions/{instrument}', 'GET',
@@ -1583,7 +1583,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/pricing', 'GET',
@@ -1694,7 +1694,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/trades/{tradeSpecifier}', 'GET',
@@ -1805,7 +1805,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/transactions/{transactionID}', 'GET',
@@ -1929,7 +1929,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/transactions/idrange', 'GET',
@@ -2040,7 +2040,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/transactions/sinceid', 'GET',
@@ -2139,7 +2139,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/users/{userSpecifier}', 'GET',
@@ -2246,7 +2246,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/instruments/{instrument}/orderBook', 'GET',
@@ -2353,7 +2353,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/instruments/{instrument}/positionBook', 'GET',
@@ -2444,7 +2444,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts', 'GET',
@@ -2543,7 +2543,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/openPositions', 'GET',
@@ -2646,7 +2646,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/openTrades', 'GET',
@@ -2770,7 +2770,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders', 'GET',
@@ -2873,7 +2873,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/pendingOrders', 'GET',
@@ -2972,7 +2972,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/positions', 'GET',
@@ -3096,7 +3096,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/trades', 'GET',
@@ -3216,7 +3216,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/transactions', 'GET',
@@ -3335,7 +3335,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders/{orderSpecifier}', 'PUT',
@@ -3454,7 +3454,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/orders/{orderSpecifier}/clientExtensions', 'PUT',
@@ -3573,7 +3573,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/trades/{tradeSpecifier}/clientExtensions', 'PUT',
@@ -3692,7 +3692,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/trades/{tradeSpecifier}/orders', 'PUT',
@@ -3808,7 +3808,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/pricing/stream', 'GET',
@@ -3907,7 +3907,7 @@ class DefaultApi(object):
             ['application/json'])  # noqa: E501
 
         # Authentication setting
-        auth_settings = ['ApiTokenAuth']  # noqa: E501
+        auth_settings = ['api_key']  # noqa: E501
 
         return self.api_client.call_api(
             '/accounts/{AccountID}/transactions/stream', 'GET',

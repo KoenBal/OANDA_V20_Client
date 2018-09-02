@@ -18,13 +18,13 @@ Python 2.7 and 3.4+
 If the python package is hosted on Github, you can install directly from Github
 
 ```sh
-pip install git+https://github.com//.git
+pip install git+https://github.com/KoenBal/OANDA_V20.git
 ```
-(you may need to run `pip` with root permission: `sudo pip install git+https://github.com//.git`)
+(you may need to run `pip` with root permission: `sudo pip install git+https://github.com/KoenBal/OANDA_V20.git`)
 
 Then import the package:
 ```python
-import oanda 
+import oanda
 ```
 
 ### Setuptools
@@ -52,10 +52,10 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
-oanda.configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+# Configure API key authorization: api_key
+oanda.configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# oanda.configuration.api_key_prefix['Authorization'] = 'Bearer'
+# oanda.configuration.api_key_prefix['authorization'] = 'Bearer'
 # create an instance of the API class
 api_instance = oanda.DefaultApi()
 account_id = 'account_id_example' # str | Account Identifier
@@ -334,10 +334,10 @@ Class | Method | HTTP request | Description
 ## Documentation For Authorization
 
 
-## ApiTokenAuth
+## api_key
 
 - **Type**: API key
-- **API key parameter name**: Authorization
+- **API key parameter name**: authorization
 - **Location**: HTTP header
 
 

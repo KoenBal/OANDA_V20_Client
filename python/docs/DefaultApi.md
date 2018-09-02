@@ -56,11 +56,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -90,7 +90,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -114,11 +114,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -150,7 +150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -174,11 +174,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -210,7 +210,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -234,11 +234,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -268,7 +268,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -292,11 +292,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -326,7 +326,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -350,11 +350,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -382,7 +382,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -406,11 +406,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -440,7 +440,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -464,11 +464,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -496,7 +496,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -520,11 +520,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -552,7 +552,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -576,11 +576,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -606,7 +606,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -630,11 +630,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -682,7 +682,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -706,11 +706,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -740,7 +740,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -764,11 +764,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -796,7 +796,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -820,11 +820,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -860,7 +860,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -884,11 +884,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -918,7 +918,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -942,11 +942,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -976,7 +976,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1000,11 +1000,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1038,7 +1038,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1062,11 +1062,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1096,7 +1096,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1120,11 +1120,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1150,7 +1150,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1174,11 +1174,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1208,7 +1208,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1232,11 +1232,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1266,7 +1266,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1290,11 +1290,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1316,7 +1316,7 @@ This endpoint does not need any parameter.
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1340,11 +1340,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1370,7 +1370,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1394,11 +1394,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1426,7 +1426,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1450,11 +1450,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1492,7 +1492,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1516,11 +1516,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1548,7 +1548,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1572,11 +1572,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1602,7 +1602,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1626,11 +1626,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1668,7 +1668,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1692,11 +1692,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1732,7 +1732,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1756,11 +1756,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1792,7 +1792,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1816,11 +1816,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1852,7 +1852,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1876,11 +1876,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1912,7 +1912,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1936,11 +1936,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -1972,7 +1972,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -1996,11 +1996,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -2032,7 +2032,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
@@ -2056,11 +2056,11 @@ import oanda
 from oanda.rest import ApiException
 from pprint import pprint
 
-# Configure API key authorization: ApiTokenAuth
+# Configure API key authorization: api_key
 configuration = oanda.Configuration()
-configuration.api_key['Authorization'] = 'YOUR_API_KEY'
+configuration.api_key['authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# configuration.api_key_prefix['Authorization'] = 'Bearer'
+# configuration.api_key_prefix['authorization'] = 'Bearer'
 
 # create an instance of the API class
 api_instance = oanda.DefaultApi(oanda.ApiClient(configuration))
@@ -2086,7 +2086,7 @@ Name | Type | Description  | Notes
 
 ### Authorization
 
-[ApiTokenAuth](../README.md#ApiTokenAuth)
+[api_key](../README.md#api_key)
 
 ### HTTP request headers
 
