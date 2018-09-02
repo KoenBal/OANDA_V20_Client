@@ -168,7 +168,7 @@ class ApiClient(object):
             return (return_data, response_data.status,
                     response_data.getheaders())
 
-    def sanitize_for_serialization(self, obj):
+    def sanitize_for_serialization(self, obj):  #api client correction
         """Builds a JSON POST object.
 
         If obj is None, return None.
@@ -194,21 +194,21 @@ class ApiClient(object):
                 for sub_obj in obj)
         elif isinstance(obj, (datetime.datetime, datetime.date)):
             return obj.isoformat()
+        elif isinstance(obj, dict):
+            obj_dict = obj
+        else:
+            # Convert model obj to dict except
+            # attributes `swagger_types`, `attribute_map`
+            # and attributes which value is not None.
+            # Convert attribute name to json key in
+            # model definition for request.
+            obj_dict = {obj.attribute_map[attr]: getattr(obj, attr)
+                    for attr, _ in six.iteritems(obj.swagger_types)
+                        if getattr(obj, attr) is not None}
 
-            if isinstance(obj, dict):
-                obj_dict = obj
-            else:
-                # Convert model obj to dict except
-                # attributes `swagger_types`, `attribute_map`
-                # and attributes which value is not None.
-                # Convert attribute name to json key in
-                # model definition for request.
-                obj_dict = {obj.attribute_map[attr]: getattr(obj, attr)
-                        for attr, _ in six.iteritems(obj.swagger_types)
-                            if getattr(obj, attr) is not None}
+        return {key: self.sanitize_for_serialization(val)
+            for key, val in six.iteritems(obj_dict)}
 
-            return {key: self.sanitize_for_serialization(val)
-                for key, val in six.iteritems(obj_dict)}
 
     def deserialize(self, response, response_type):
         """Deserializes response into an object.
