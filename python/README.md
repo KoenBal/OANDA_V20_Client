@@ -46,24 +46,47 @@ import oanda
 Please follow the [installation procedure](#installation--usage) and then run the following:
 
 ```python
-from __future__ import print_function
-import time
+#import standard python packages
+import sys
+import pprint
+
+#import custom packages
+sys.path.insert(0, 'xxxx') #path to import oanda
 import oanda
 from oanda.rest import ApiException
-from pprint import pprint
 
-# Configure API key authorization: api_key
-oanda.configuration.api_key['authorization'] = 'YOUR_API_KEY'
-# Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-# oanda.configuration.api_key_prefix['authorization'] = 'Bearer'
+config = oanda.Configuration()
+# practice
+config.host = 'https://api-fxpractice.oanda.com/v3'
+account_id = '101-004-761492-001' # str | Account Identifier
+# production
+# config.host = 'https://api-fxtrade.oanda.com'
+# account_id = '101-004-763462-001' # str | Account Identifier
+
+config.api_key['authorization'] = 'Bearer <api token>'
+api_client = oanda.ApiClient(config)
 # create an instance of the API class
-api_instance = oanda.DefaultApi()
-account_id = 'account_id_example' # str | Account Identifier
-order_specifier = 'order_specifier_example' # str | The Order Specifier
-accept_datetime_format = 'accept_datetime_format_example' # str | Format of DateTime fields in the request and response. (optional)
+oanda_api = oanda.DefaultApi(api_client)
 
+#  Examples___________________________________________________________________________________________________
+# get_account
+api_response = oanda_api.get_account(account_id=account_id)
+pprint.pprint(api_response)
+
+# create_order
+create_order_body = {"order": {
+                        "units": "-100",
+                        "instrument": "EUR_USD",
+                        "timeInForce": "FOK",
+                        "type": "MARKET",
+                        "positionFill": "DEFAULT"
+                        }}
+
+api_response = oanda_api.create_order(authorization, account_id=account_id, create_order_body=order_body)
+pprint.pprint(api_response)
+
+# Cancel Order
 try:
-    # Cancel Order
     api_response = api_instance.cancel_order(account_id, order_specifier, accept_datetime_format=accept_datetime_format)
     pprint(api_response)
 except ApiException as e:
@@ -344,4 +367,3 @@ Class | Method | HTTP request | Description
 ## Author
 
 api@oanda.com
-
