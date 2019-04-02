@@ -61,20 +61,20 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         # Password for HTTP basic authentication
         self.password = ""
 
-        # Logging Settings
-        self.logger = {}
-        self.logger["package_logger"] = logging.getLogger("oanda")
-        self.logger["urllib3_logger"] = logging.getLogger("urllib3")
-        # Log format
-        self.logger_format = '%(asctime)s %(levelname)s %(message)s'
-        # Log stream handler
-        self.logger_stream_handler = None
-        # Log file handler
-        self.logger_file_handler = None
-        # Debug file location
-        self.logger_file = None
-        # Debug switch
-        self.debug = False
+        # # Logging Settings
+        # self.logger = {}
+        # self.logger["package_logger"] = logging.getLogger("oanda")
+        # self.logger["urllib3_logger"] = logging.getLogger("urllib3")
+        # # Log format
+        # self.logger_format = '%(asctime)s %(levelname)s %(message)s'
+        # # Log stream handler
+        # self.logger_stream_handler = None
+        # # Log file handler
+        # self.logger_file_handler = None
+        # # Debug file location
+        # self.logger_file = None
+        # # Debug switch
+        # self.debug = False
 
         # SSL/TLS verification
         # Set this to false to skip verifying SSL certificate when calling API
